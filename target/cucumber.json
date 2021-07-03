@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-03T09:37:58.197Z",
+        "line": 4,
+        "name": "Maker starts the game",
+        "description": "",
+        "id": "guess-the-work;maker-starts-the-game",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the Maker has started a game with the work \"silky\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "silky",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDefinitions.AdminStepDefinitions.theMakerHasStartedAGameWithTheWork(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the Breaker joins the maker\u0027s game",
+            "match": {
+              "location": "StepDefinitions.AdminStepDefinitions.the_Breaker_joins_the_maker_s_game()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the breaker must guess",
+            "match": {
+              "location": "StepDefinitions.AdminStepDefinitions.theBreakerMustGuess()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@JuneRelease"
+          }
+        ]
+      }
+    ],
+    "name": "Guess The Work",
+    "description": "",
+    "id": "guess-the-work",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/admin/configurations/AttachmentMaster.feature",
+    "tags": []
+  }
+]
