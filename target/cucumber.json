@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-07-05T16:25:33.117Z",
+        "start_timestamp": "2021-07-06T16:24:51.861Z",
         "before": [
           {
             "result": {
-              "duration": 157000000,
+              "duration": 134000000,
               "status": "passed"
             },
             "match": {
@@ -22,8 +22,9 @@
         "after": [
           {
             "result": {
-              "duration": 2000000,
-              "status": "passed"
+              "error_message": "java.lang.NullPointerException\r\n\tat com.iportman.automation.stepDefinitions.Hooks.endTest(Hooks.java:37)\r\n",
+              "duration": 3000000,
+              "status": "failed"
             },
             "match": {
               "location": "com.iportman.automation.stepDefinitions.Hooks.endTest(io.cucumber.java.Scenario)"
@@ -35,7 +36,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 5,
@@ -47,30 +48,31 @@
                   "offset": 44
                 }
               ],
-              "location": "com.iportman.automation.stepDefinitions.AdminStepDefinitions.theMakerHasStartedAGameWithTheWork(java.lang.String)"
+              "location": "com.iportman.automation.stepDefinitions.adminStepDef.AdminStepDefinitions.theMakerHasStartedAGameWithTheWork(java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1000000,
+              "duration": 10000000,
               "status": "passed"
             },
             "line": 6,
             "name": "the Breaker joins the maker\u0027s game",
             "match": {
-              "location": "com.iportman.automation.stepDefinitions.AdminStepDefinitions.the_Breaker_joins_the_maker_s_game()"
+              "location": "com.iportman.automation.stepDefinitions.adminStepDef.AdminStepDefinitions.the_Breaker_joins_the_maker_s_game()"
             },
             "keyword": "When "
           },
           {
             "result": {
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 7,
             "name": "the breaker must guess",
             "match": {
-              "location": "com.iportman.automation.stepDefinitions.AdminStepDefinitions.theBreakerMustGuess()"
+              "location": "com.iportman.automation.stepDefinitions.adminStepDef.AdminStepDefinitions.theBreakerMustGuess()"
             },
             "keyword": "Then "
           }
@@ -82,7 +84,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-05T16:25:33.451Z",
+        "start_timestamp": "2021-07-06T16:24:52.159Z",
         "before": [
           {
             "result": {
@@ -107,7 +109,7 @@
               }
             ],
             "result": {
-              "duration": 176000000,
+              "duration": 4118000000,
               "status": "passed"
             },
             "match": {
@@ -120,8 +122,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@title\u003d\u0027Search123\u0027]\"}\n  (Session info: chrome\u003d91.0.4472.124)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-209887K\u0027, ip: \u0027192.168.29.215\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_281\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\\Users\\CHROME\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61172}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 95264e05c08c7ea6c9b52fc228966ffa\n*** Element info: {Using\u003dxpath, value\u003d//input[@title\u003d\u0027Search123\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.iportman.automation.utilties.windows.WindowsGenralActions.doesElementExists(WindowsGenralActions.java:13)\r\n\tat com.iportman.automation.admin.windows.AttachmentMasterPage.checking(AttachmentMasterPage.java:15)\r\n\tat com.iportman.automation.stepDefinitions.AdminStepDefinitions.applicationUrl(AdminStepDefinitions.java:36)\r\n\tat ✽.application url \"https://www.google.com/\"(file:///D:/envisionBdd/envisionFrameWork/src/test/resources/features/admin/configurations/AttachmentMaster.feature:11)\r\n",
-              "duration": 12576000000,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@title\u003d\u0027Search123\u0027]\"}\n  (Session info: chrome\u003d91.0.4472.124)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-209887K\u0027, ip: \u0027192.168.29.215\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_281\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\\Users\\CHROME\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53853}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: cfbb0ba95995e98753c761b549c45906\n*** Element info: {Using\u003dxpath, value\u003d//input[@title\u003d\u0027Search123\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.iportman.automation.utilties.windows.WindowsGenralActions.doesElementExists(WindowsGenralActions.java:18)\r\n\tat com.iportman.automation.admin.windows.AttachmentMasterPage.checking(AttachmentMasterPage.java:15)\r\n\tat com.iportman.automation.stepDefinitions.adminStepDef.AdminStepDefinitions.applicationUrl(AdminStepDefinitions.java:30)\r\n\tat ✽.application url \"https://www.google.com/\"(file:///D:/envisionBdd/envisionFrameWork/src/test/resources/features/admin/configurations/AttachmentMaster.feature:11)\r\n",
+              "duration": 12415000000,
               "status": "failed"
             },
             "line": 11,
@@ -133,7 +135,7 @@
                   "offset": 16
                 }
               ],
-              "location": "com.iportman.automation.stepDefinitions.AdminStepDefinitions.applicationUrl(java.lang.String)"
+              "location": "com.iportman.automation.stepDefinitions.adminStepDef.AdminStepDefinitions.applicationUrl(java.lang.String)"
             },
             "keyword": "Given "
           }
@@ -145,7 +147,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-05T16:25:46.234Z",
+        "start_timestamp": "2021-07-06T16:25:08.731Z",
         "before": [
           {
             "result": {
@@ -164,6 +166,7 @@
         "after": [
           {
             "result": {
+              "duration": 1699000000,
               "status": "passed"
             },
             "match": {
@@ -176,7 +179,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11814000000,
+              "duration": 11974000000,
               "status": "passed"
             },
             "line": 15,
@@ -188,7 +191,7 @@
                   "offset": 19
                 }
               ],
-              "location": "com.iportman.automation.stepDefinitions.AdminStepDefinitions.applicationFbUrl(java.lang.String)"
+              "location": "com.iportman.automation.stepDefinitions.adminStepDef.AdminStepDefinitions.applicationFbUrl(java.lang.String)"
             },
             "keyword": "Given "
           }

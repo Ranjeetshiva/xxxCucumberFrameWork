@@ -1,14 +1,19 @@
 package com.iportman.automation.baseDriver;
 
-import cucumberFramework.enums.Browsers;
-import cucumberFramework.enums.OS;
+import com.iportman.automation.enums.Browsers;
+import com.iportman.automation.enums.OS;
+import com.iportman.automation.utilties.LoggerHelper;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class PageDriver {
+
+    Logger logger = LoggerHelper.getLogger(PageDriver.class);
     public static WebDriver driver;
-    public WebDriver selectBrowser(String browser) {
+
+    public WebDriver selectBrowserDriver(String browser) {
         if (System.getProperty("os.name").toLowerCase().contains(OS.WINDOW.name().toLowerCase())) {
             if (browser.equalsIgnoreCase(Browsers.CHROME.name())) {
                 System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/test/resources/drivers/chromedriver.exe");
