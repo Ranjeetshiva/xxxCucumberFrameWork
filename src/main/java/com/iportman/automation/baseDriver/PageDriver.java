@@ -1,8 +1,9 @@
 package com.iportman.automation.baseDriver;
 
-import com.iportman.automation.enums.Browsers;
-import com.iportman.automation.enums.OS;
-import com.iportman.automation.utilties.LoggerHelper;
+import com.iportman.automation.general.enums.Browsers;
+import com.iportman.automation.general.enums.OS;
+import com.iportman.automation.general.LoggerHelper;
+import com.iportman.automation.general.utilties.Utilties;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -34,5 +35,7 @@ public class PageDriver {
         }
         return driver;
     }
+
+
 
 }

@@ -1,6 +1,1 @@
-2021-07-05 21:49:26 [main] INFO  com.iportman.automation.stepDefinitions.Hooks - Display Google Search Page is Failed
-2021-07-05 21:49:26 [main] DEBUG com.iportman.automation.stepDefinitions.Hooks - This is a Debug
-2021-07-05 21:49:26 [main] INFO  com.iportman.automation.stepDefinitions.Hooks - This is an Info
-2021-07-05 21:49:26 [main] WARN  com.iportman.automation.stepDefinitions.Hooks - This is a Warn
-2021-07-05 21:49:26 [main] ERROR com.iportman.automation.stepDefinitions.Hooks - This is an Error
-2021-07-05 21:49:26 [main] FATAL com.iportman.automation.stepDefinitions.Hooks - This is a Fatal
+

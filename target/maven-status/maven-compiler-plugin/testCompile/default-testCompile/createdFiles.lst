@@ -1,1 +1,5 @@
+stepDefinitions\windows\AdminWindowStepDefs.class
+stepDefinitions\windows\LoginWindowStepDefs.class
+stepDefinitions\windows\MarineWindowStepDefs.class
+stepDefinitions\Hooks.class
 CukesTestRunner.class

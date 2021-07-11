@@ -1,4 +1,6 @@
-2021-07-06 21:54:52 [main] INFO  com.iportman.automation.baseDriver.AbstractDriver - ***** Web Driver Started Successfully ***** 
-2021-07-06 21:55:04 [main] INFO  com.iportman.automation.stepDefinitions.Hooks - Display Google Search Page is Failed
-2021-07-06 21:55:04 [main] INFO  com.iportman.automation.stepDefinitions.Hooks - This is an Info
-2021-07-06 21:55:08 [main] INFO  com.iportman.automation.baseDriver.AbstractDriver - ***** Web Driver Started Successfully ***** 
+2021-07-11 18:42:15 [main] INFO  com.iportman.automation.baseDriver.AbstractDriver - ***** Web Driver Started Successfully ***** 
+2021-07-11 18:42:19 [main] INFO  com.iportman.automation.general.utilties.Utilties - Config File Locationsrc\test\resources\config.properties
+2021-07-11 18:42:22 [main] INFO  com.iportman.automation.general.utilties.Utilties - Config File Locationsrc\test\resources\config.properties
+2021-07-11 18:42:22 [main] INFO  com.iportman.automation.baseDriver.AbstractDriver - Application Launched http://202.153.35.132:9001/pos/web/login
+2021-07-11 18:42:22 [main] INFO  com.iportman.automation.general.utilties.Utilties - Config File Locationsrc\test\resources\config.properties
+2021-07-11 18:42:52 [main] INFO  com.iportman.automation.allModules.login.windows.LoginPage - Application Login Successful
