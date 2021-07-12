@@ -1,6 +1,6 @@
-2021-07-11 18:42:15 [main] INFO  com.iportman.automation.baseDriver.AbstractDriver - ***** Web Driver Started Successfully ***** 
-2021-07-11 18:42:19 [main] INFO  com.iportman.automation.general.utilties.Utilties - Config File Locationsrc\test\resources\config.properties
-2021-07-11 18:42:22 [main] INFO  com.iportman.automation.general.utilties.Utilties - Config File Locationsrc\test\resources\config.properties
-2021-07-11 18:42:22 [main] INFO  com.iportman.automation.baseDriver.AbstractDriver - Application Launched http://202.153.35.132:9001/pos/web/login
-2021-07-11 18:42:22 [main] INFO  com.iportman.automation.general.utilties.Utilties - Config File Locationsrc\test\resources\config.properties
-2021-07-11 18:42:52 [main] INFO  com.iportman.automation.allModules.login.windows.LoginPage - Application Login Successful
+2021-07-11 18:56:40 [main] INFO  com.iportman.automation.baseDriver.AbstractDriver - ***** Web Driver Started Successfully ***** 
+2021-07-11 18:56:43 [main] INFO  com.iportman.automation.general.utilties.Utilties - Config File Location src\test\resources\config.properties
+2021-07-11 18:56:45 [main] INFO  com.iportman.automation.general.utilties.Utilties - Config File Location src\test\resources\config.properties
+2021-07-11 18:56:45 [main] INFO  com.iportman.automation.baseDriver.AbstractDriver - Application Launched http://202.153.35.132:9001/pos/web/login
+2021-07-11 18:56:45 [main] INFO  com.iportman.automation.general.utilties.Utilties - Config File Location src\test\resources\config.properties
+2021-07-11 18:57:20 [main] INFO  com.iportman.automation.allModules.login.windows.LoginPage - Application Login Successful

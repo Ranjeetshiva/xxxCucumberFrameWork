@@ -17,6 +17,7 @@ public class MarineWindowStepDefs {
 
     @Then("user should be able to see {string} Form")
     public void userShouldBeAbleToSeeForm(String arg0) {
+
         logger.info("userShouldBeAbleToSeeForm");
     }
 

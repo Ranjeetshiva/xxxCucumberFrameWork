@@ -1,7 +1,6 @@
 package com.iportman.automation.general.utilties;
 import com.iportman.automation.general.LoggerHelper;
 import org.apache.log4j.Logger;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;

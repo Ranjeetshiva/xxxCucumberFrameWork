@@ -1,11 +1,9 @@
 package com.iportman.automation.general.utilties.windows;
-
 import com.iportman.automation.baseDriver.PageDriver;
 import com.iportman.automation.general.LoggerHelper;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -56,6 +54,4 @@ public class WindowsGenralActions extends PageDriver {
         button.click();
         return true;
     }
-
-
 }

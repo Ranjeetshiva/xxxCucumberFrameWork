@@ -21,6 +21,5 @@ public abstract class AbstractDriver {
             driver().navigate().to(Utilties.getConfigProperty("posUrl"));
             logger.info("Application Launched "+ Utilties.getConfigProperty("posUrl"));
         }
-
     }
 }

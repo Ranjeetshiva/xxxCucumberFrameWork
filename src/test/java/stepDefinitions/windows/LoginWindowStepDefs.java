@@ -9,6 +9,5 @@ public class LoginWindowStepDefs {
     public void theUserIsLoggedIntoIportmanApplication(String posUser, String userId) {
         LoginPage loginPage= new LoginPage();
         loginPage.loginToAPP(posUser,userId);
-
     }
 }
